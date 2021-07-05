@@ -29,4 +29,6 @@ textarea {
 .navbar-inverse .navbar-nav >li > a {
     color : white;
 }
-.navbar-inverse .navbar-
+.navbar-inverse .navbar-brand {
+    color : white;
+}
