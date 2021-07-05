@@ -12,12 +12,13 @@ namespace NguyenThanhQuang_BigSchool.Controllers
     //ghi chu fqwefqf
     public class CoursesController : Controller
     {
+        // GET: Courses
         private readonly ApplicationDbContext _dbContext;
         public CoursesController()
         {
             _dbContext = new ApplicationDbContext();
         }
-        // GET: Courses
+        [Authorize]
         public ActionResult Create()
         {
             var viewModel = new CourseViewModel
