@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace NguyenThanhQuang_BigSchool.Controllers
 {
+    //ghi chu
     public class HomeController : Controller
     {
         public ActionResult Index()
